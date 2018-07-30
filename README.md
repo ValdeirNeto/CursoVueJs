@@ -1,3 +1,1 @@
-"# CursoVueJs" 
-
-curso de vue
+"Curso Vue Js do School of Net" 
