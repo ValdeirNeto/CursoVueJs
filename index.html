@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>aula-vue2</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Campeonato Brasileiro - Série A</h1>
+      <ul>
+        <li v-for="time in times">
+          {{time.nome}}<img :src="time.escudo">
+        </li>
+      </ul>
+
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
